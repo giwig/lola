@@ -1,4 +1,4 @@
-# (L)inux (O)n (L)ua (A)utobuilder - or just LOLA
+# (L)inux (O)n (L)ua (A)utobuilder - LOLA
 ###	by GiWiG (c) 2022
 ***
 
