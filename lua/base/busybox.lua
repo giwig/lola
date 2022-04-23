@@ -1,5 +1,3 @@
--- File thats includes some functions
-
 
 pkgname="busybox"
 pkgver="1.35.0"
