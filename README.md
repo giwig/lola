@@ -1,4 +1,5 @@
-# LOLA - (L)inux (O)n (L)ua (A)utobuilder by GiWiG (c) 2022
+# LOLA - (L)inux (O)n (L)ua (A)utobuilder
+###	by GiWiG (c) 2022
 ***
 
 В общем я брал, за шаблон, пакетный менеджер 'pacman' и его скрипты для сборки пакетов.<BR/>
