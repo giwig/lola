@@ -41,12 +41,12 @@ function pkg_prepare()
 	cpp_bash("sudo rm -r " .. tol_dir .. "/aaa")
 
 	cmd = [[
-	    ./configure --prefix=/usr							\
-	                --libdir=/usr/lib64						\
-	                --sysconfdir=/etc						\
-	                --host=$(uname -m)-lfs-linux-gnu		\
-	                --build=$(build-aux/config.guess)		\
-	                --disable-static  
+	    ./configure	--prefix=/usr							\
+						--libdir=/usr/lib64					\
+						--sysconfdir=/etc						\
+						--host=$(uname -m)-lfs-linux-gnu	\
+						--build=$(build-aux/config.guess)	\
+						--disable-static  
 	]]
 	
 	--cmd = "./configure --help"
