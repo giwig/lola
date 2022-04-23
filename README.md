@@ -58,17 +58,17 @@ end
 
 
 function build()
-    print("\tbuild => "..pkgname)
 
     cpp_bash("make -j8")
 
 end
 
 function pkg_package()
-    print(" * package => "..pkgname)
+
     cmd = [[
         make DESTDIR=]] .. tol_dir .. [[/aaa install
     ]]
+
     cpp_bash(cmd)
 
 end
