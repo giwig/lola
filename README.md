@@ -22,7 +22,7 @@ LFS до BLFS в XFCE4, но сейчас не хочу даже браться 
 ***
 
 ## Пример из пакета XZ
-`code`
+`lua`
 pkgname="xz"
 pkgver="5.2.5"
 pkgrel="0"
@@ -71,7 +71,6 @@ function pkg_package()
 	
 end
 
-`code`
 
 
 ### TODO:
