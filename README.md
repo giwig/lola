@@ -94,11 +94,11 @@ end
 >    -   Вынести функции в отдельную библиотеку , для привязки с другими языками типа Python итд...
 
 ***
-<center><h3> Как пользоваться <b>llbuilder</b>:</h3></center>
-___
+### Как пользоваться <b>llbuilder</b>:
+
 #### ./llbuilder -h или в корне ./run -h
-___
 <code>
+
 (L)inux (O)n (L)ua (A)utobuilder:
 
 Usage: ./llbuilder [flags optional] [path to build scripts]
