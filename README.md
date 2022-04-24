@@ -66,7 +66,7 @@ Usage: ./llbuilder [flags optional] [path to build scripts]
 #### ./llbuilder <i>или в корне</i> ./run.sh -b lua/lfs.lpac запускает сборку системы.
 
 ***
-### Описание файла LPAC:
+# Описание файла LPAC:
 
 ### вырезка из lfs.lpac:
 ```lua
