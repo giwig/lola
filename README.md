@@ -40,7 +40,7 @@ function pkg_prepare()
 
     cpp_bash("sudo rm -r " .. tol_dir .. "/aaa")
 
-    cmd = [[
+    local cmd = [[
         ./configure     --prefix=/usr                       \
                         --libdir=/usr/lib64                 \
                         --sysconfdir=/etc                   \
