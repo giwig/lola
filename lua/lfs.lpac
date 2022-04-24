@@ -8,8 +8,9 @@ package.path="lua/?.lua"
 require "inc/env"
 
 lpacs = {
+	"base/test", 
 	--"base/m4",
-	"base/busybox", 
+	--"base/busybox", 
 	--"base/ncurses",
 	--"base/bash",
 	--"base/coreutils",
