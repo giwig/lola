@@ -51,8 +51,6 @@ LFS до BLFS в XFCE4, но сейчас не хочу даже браться 
 
 Запускаем в корне "run.sh"
 ```console
-./run.sh
-
 guest@porteus:~/eclipse-workspace/mini-pacman$ ./run.sh 
 mkdir: created directory 'build'
 mkdir: created directory 'build/default'
