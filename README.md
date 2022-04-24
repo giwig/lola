@@ -52,6 +52,51 @@ LFS до BLFS в XFCE4, но сейчас не хочу даже браться 
 Запускаем в корне "run.sh"
 ```console
 ./run.sh
+
+guest@porteus:~/eclipse-workspace/mini-pacman$ ./run.sh 
+mkdir: created directory 'build'
+mkdir: created directory 'build/default'
+mkdir: created directory 'build/bin'
+mkdir: created directory 'build/bin/lua'
+ * Configure CMAKE files
+-- The C compiler identification is GNU 10.3.0
+-- The CXX compiler identification is GNU 10.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.0") 
+-- Checking for module 'lua'
+--   Found lua, version 5.1.5
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/guest/eclipse-workspace/mini-pacman/build
+ * Build project in /home/guest/eclipse-workspace/mini-pacman/build
+[  8%] Building CXX object CMakeFiles/llbuilder.dir/src/inc/m_lpac.cpp.o
+[ 16%] Building CXX object CMakeFiles/llbuilder.dir/src/inc/cpp_fs.cpp.o
+[ 25%] Building CXX object CMakeFiles/llbuilder.dir/src/inc/m_helper.cpp.o
+[ 33%] Building CXX object CMakeFiles/llbuilder.dir/src/inc/cpp_inet.cpp.o
+[ 41%] Building CXX object CMakeFiles/llbuilder.dir/src/mini-pacman.cpp.o
+[ 50%] Building CXX object CMakeFiles/llbuilder.dir/src/inc/m_builder.cpp.o
+[ 58%] Building CXX object CMakeFiles/llbuilder.dir/src/inc/lua_filesystem.cpp.o
+[ 66%] Building CXX object CMakeFiles/llbuilder.dir/src/inc/lua_loop.cpp.o
+[ 75%] Building CXX object CMakeFiles/llbuilder.dir/src/inc/lua_envs.cpp.o
+[ 83%] Building CXX object CMakeFiles/llbuilder.dir/src/inc/lua_child_process.cpp.o
+[ 91%] Building CXX object CMakeFiles/llbuilder.dir/src/inc_3th/sha256.cpp.o
+[100%] Linking CXX executable llbuilder
+[100%] Built target llbuilder
+
+
+(L)inux (O)n (L)ua (A)utobuilder:
+
+guest@porteus:~/eclipse-workspace/mini-pacman$
+
 ```
 
 #### ./llbuilder -h или в корне ./run.sh -h
