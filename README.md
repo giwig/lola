@@ -251,12 +251,12 @@ TODO: надо сделать общии функции для упаковки 
 |:construction: cpp_ls | дает список файлов в папке. очень помогает, так как в chroot() может не быть функции 'ls'. Возвращает назад список файлов и папок. |
 |:construction: cpp_pwd | возвращает назад папку, в которой мы сейчас находимся.|
 |:construction: cpp_is_file | проверят путь true  = файл; false = папка.|
-| cpp_is_dir | проверят путь false = файл; true  = папка.|
-| cpp_set_env | записывает переменную|
-| cpp_get_env | вычитывает переменную|
-| cpp_del_env | стирает переменную|
-| cpp_clear_env | стирает все вариаблы в списке.|
-| cpp_sha256file | хэш файла sha56|
+|:construction: cpp_is_dir | проверят путь false = файл; true  = папка.|
+|:construction: cpp_set_env | записывает переменную|
+|:construction: cpp_get_env | вычитывает переменную|
+|:construction: cpp_del_env | стирает переменную|
+|:construction: cpp_clear_env | стирает все вариаблы в списке.|
+|:construction: cpp_sha256file | хэш файла sha56|
 
 
 
