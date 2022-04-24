@@ -113,6 +113,8 @@ Usage: ./llbuilder [flags optional] [path to build scripts]
 	-b [path to *.lpac]	File LPAC with configuration for system build
 </code>
 
+#### ./llbuilder *или в корне ./run -b lua/lfs.lpac 
+
 ***
 ### Описание файла LPAC:
 Файл 'LPAC' имеет в себе следующую структуру данных:
