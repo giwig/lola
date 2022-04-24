@@ -97,6 +97,39 @@ end
 ### Описание файла LPAC:
 Файл 'LPAC' имеет в себе следующую структуру данных:
 
+### вырезка из lfs.lpac:
+```lua
+
+#!/usr/bin/lua
+-- это просто заголовок для распознования синтаксиса другими редакторами
+
+
+--package.path="lua/?.lua;lua/base/?.lua;lua/toolchain/?.lua"
+package.path="lua/?.lua"
+
+require "inc/env"
+
+lpacs = {
+	--"base/m4",
+	"base/busybox", 
+	--"base/ncurses",
+	--"base/bash",
+	--"base/coreutils",
+	--"base/xz",
+}
+
+src_dir="/mnt/sda5/PROJECTS/os/plaxOS/src"
+tol_dir="/tmp/cbuild"
+
+env_global = {
+	--"PATH="..tol_dir.."/x86_64-multilib-linux-gnu/bin/:"..tol_dir.."/tools/bin:$PATH",
+	"LFS_TGT=$(uname -m)-lfs-linux-gnu",
+	"VENDOR=GIWIG",
+}
+
+
+```
+
 Главный файл lpac содержит в себе глобальные настройки для сборки системы. 
 
 | Переменная | Описание |
