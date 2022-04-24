@@ -1,4 +1,4 @@
---#!/usr/bin/lua
+#!/usr/bin/lua
 -- это просто заголовок для распознования синтаксиса другими редакторами
 
 
@@ -24,3 +24,5 @@ env_global = {
 	"LFS_TGT=$(uname -m)-lfs-linux-gnu",
 	"VENDOR=GIWIG",
 }
+
+
