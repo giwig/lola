@@ -95,7 +95,7 @@ end
 
 ***
 ### Как пользоваться <b>llbuilder</b>:
-#### ./llbuilder -h
+#### ./llbuilder -h или в корне ./run -h
 
 <code>
 (L)inux (O)n (L)ua (A)utobuilder:
