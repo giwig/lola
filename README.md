@@ -246,19 +246,19 @@ TODO: надо сделать общии функции для упаковки 
 
 :construction: == функции частично проверены
 
-| Функция | Описание |
-| ---------- | -------- |
-| cpp_bash:construction: | вызывает системную комманду 'system()'.|
-| cpp_chroot:construction: | переход в chroot() указанной папки.|
-| cpp_ls:construction: | дает список файлов в папке. очень помогает, так как в chroot() может не быть функции 'ls'. Возвращает назад список файлов и папок. |
-| cpp_pwd:construction: | возвращает назад папку, в которой мы сейчас находимся.|
-| cpp_is_file:construction: | проверят путь true  = файл; false = папка.|
-| cpp_is_dir:construction: | проверят путь false = файл; true  = папка.|
-| cpp_set_env:construction: | записывает переменную|
-| cpp_get_env:construction: | вычитывает переменную|
-| cpp_del_env:construction: | стирает переменную|
-| cpp_clear_env:construction: | стирает все вариаблы в списке.|
-| cpp_sha256file:construction: | хэш файла sha56|
+| Функция | Статус | Описание |
+| ------- | ------ | -------- |
+| cpp_bash | :construction: | вызывает системную комманду 'system()'.|
+| cpp_chroot | :construction: | переход в chroot() указанной папки.|
+| cpp_ls | :construction: | дает список файлов в папке. очень помогает, так как в chroot() может не быть функции 'ls'. Возвращает назад список файлов и папок. |
+| cpp_pwd | :construction: | возвращает назад папку, в которой мы сейчас находимся.|
+| cpp_is_file | :construction: | проверят путь true  = файл; false = папка.|
+| cpp_is_dir | :construction: | проверят путь false = файл; true  = папка.|
+| cpp_set_env | :construction: | записывает переменную|
+| cpp_get_env | :construction: | вычитывает переменную|
+| cpp_del_env | :construction: | стирает переменную|
+| cpp_clear_env | :construction: | стирает все вариаблы в списке.|
+| cpp_sha256file | :construction: | хэш файла sha56|
 
 
 
