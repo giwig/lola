@@ -94,6 +94,25 @@ end
 >    -   Вынести функции в отдельную библиотеку , для привязки с другими языками типа Python итд...
 
 ***
+### Как пользоваться <b>llbuilder</b>:
+#### ./llbuilder -h
+
+<code>
+(L)inux (O)n (L)ua (A)utobuilder:
+
+Usage: ./llbuilder [flags optional] [path to build scripts]
+
+	HELP:
+	=====================================================
+	-h			this help
+	-v			version for ./llbuilder
+
+	FLAGS:
+	=====================================================
+	-b [path to *.lpac]	File LPAC with configuration for system build
+</code>
+
+***
 ### Описание файла LPAC:
 Файл 'LPAC' имеет в себе следующую структуру данных:
 
