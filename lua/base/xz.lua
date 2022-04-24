@@ -13,37 +13,31 @@ function pkg_prepare()
 
 	cpp_bash("sudo rm -r " .. tol_dir .. "/aaa")
 
-	local cmd = [[
+	print(cpp_bash([[
 		./configure --prefix=/usr 						\
 					--libdir=/usr/lib64 				\
 					--sysconfdir=/etc					\
 					--host=$(uname -m)-lfs-linux-gnu 	\
             		--build=$(build-aux/config.guess) 	\
             		--disable-static  
-	]]
+	]]))
 	
-	--cmd = "./configure --help"
-
-	cpp_bash(cmd)
-
 end
 
 
 
 function build()
-	print("\tbuild => "..pkgname)
-	
+
 	cpp_bash("make -j8")
 	
 end
 
 function pkg_package()
-	print(" * package => "..pkgname)
-	cmd = [[
+
+	cpp_bash([[
 		make DESTDIR=]] .. tol_dir .. [[/aaa install
-	]]
-	cpp_bash(cmd)
-	
+	]])
+
 end
 
 

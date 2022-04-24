@@ -8,13 +8,13 @@ package.path="lua/?.lua"
 require "inc/env"
 
 lpacs = {
-	"base/test", 
+	--"base/test", 
 	--"base/m4",
 	--"base/busybox", 
 	--"base/ncurses",
 	--"base/bash",
 	--"base/coreutils",
-	--"base/xz",
+	"base/xz",
 }
 
 src_dir="/mnt/sda5/PROJECTS/os/plaxOS/src"
