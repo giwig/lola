@@ -98,7 +98,8 @@ end
 Установка программы в систему пока не проверял, так как я использую <b>cmake</b>, как сборщик и ещё руки не доросли до установки через <b>make install</b>
 
 #### ./llbuilder -h или в корне ./run -h
-<code>
+
+```console
 
 (L)inux (O)n (L)ua (A)utobuilder:
 
@@ -112,7 +113,7 @@ Usage: ./llbuilder [flags optional] [path to build scripts]
 	FLAGS:
 	=====================================================
 	-b [path to *.lpac]	File LPAC with configuration for system build
-</code>
+```
 
 #### ./llbuilder <i>или в корне</i> ./run -b lua/lfs.lpac запускает сборку системы.
 
