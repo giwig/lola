@@ -204,7 +204,7 @@ end
 
 
 
-function build()
+function pkg_build()
 
     cpp_bash("make -j8")
 
