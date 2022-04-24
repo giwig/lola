@@ -145,6 +145,7 @@ lpacs = {
 src_dir="/mnt/sda5/PROJECTS/os/plaxOS/src"
 tol_dir="/tmp/cbuild"
 
+-- нужно дописать resolver для переменных типа $PATH
 env_global = {
 	--"PATH="..tol_dir.."/x86_64-multilib-linux-gnu/bin/:"..tol_dir.."/tools/bin:$PATH",
 	"LFS_TGT=$(uname -m)-lfs-linux-gnu",
