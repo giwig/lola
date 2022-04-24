@@ -246,21 +246,24 @@ TODO: надо сделать общии функции для упаковки 
 
 | Функция | Статус | Описание |
 | ------- | ------ | -------- |
-| cpp_bash | :construction: | вызывает системную комманду 'system()'.|
-| cpp_chroot | :construction: | переход в chroot() указанной папки.|
-| cpp_ls | :construction: | дает список файлов в папке. очень помогает, так как в chroot() может не быть функции 'ls'. Возвращает назад список файлов и папок. |
-| cpp_pwd | :construction: | возвращает назад папку, в которой мы сейчас находимся.|
-| cpp_is_file | :construction: | проверят путь true  = файл; false = папка.|
-| cpp_is_dir | :construction: | проверят путь false = файл; true  = папка.|
-| cpp_set_env | :construction: | записывает переменную|
-| cpp_get_env | :construction: | вычитывает переменную|
-| cpp_del_env | :construction: | стирает переменную|
-| cpp_clear_env | :construction: | стирает все вариаблы в списке.|
-| cpp_sha256file | :construction: | хэш файла sha56|
+| cpp_bash | :warning: :construction: | вызывает системную комманду 'system()'.|
+| cpp_chroot | :warning: :construction: | переход в chroot() указанной папки.|
+| cpp_ls | :warning: :construction: | дает список файлов в папке. очень помогает, так как в chroot() может не быть функции 'ls'. Возвращает назад список файлов и папок. |
+| cpp_pwd | :warning: :construction: | возвращает назад папку, в которой мы сейчас находимся.|
+| cpp_is_file | :warning: :construction: | проверят путь true  = файл; false = папка.|
+| cpp_is_dir | :warning: :construction: | проверят путь false = файл; true  = папка.|
+| cpp_set_env | :warning: :construction: | записывает переменную|
+| cpp_get_env | :warning: :construction: | вычитывает переменную|
+| cpp_del_env | :warning: :construction: | стирает переменную|
+| cpp_clear_env | :warning: :construction: | стирает все вариаблы в списке.|
+| cpp_sha256file | :warning: :construction: | хэш файла sha56|
 
 #### Статусы
->:ok:		   == функция проверена и работает.<BR/>
->:construction: == функции могут не работать. Или отсутствовать вовсе (но только сейчас - в связи с переделкой проекта )<BR/>
+| Статус | Описание |
+| ------ | -------- |
+|:ok: | функция проверена и работает.|
+|:warning: ||
+|:construction: | функции могут не работать. Или отсутствовать вовсе (но только сейчас - в связи с переделкой проекта )|
 
 
 
