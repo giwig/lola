@@ -31,19 +31,16 @@ end
 
 
 function pkg_package()
-	local tmp = cpp_get_env("TOL_DIR")
-	print(" * TOL_DIR[build] == " .. tmp )
+	print(" * TOL_DIR[build] == " .. cpp_get_env("TOL_DIR") )
 
-	local cmd = [[
+	print(cpp_bash([[
 		[ -d $TOL_DIR/busybox ] && rm -r $TOL_DIR/busybox || echo -e "NOT FOUND $TOL_DIR"
-	]]
-	print(cpp_bash(cmd))
+	]]))
 
-	local cmd = [[
-		export
-	]]
-	print(cpp_bash(cmd))
-	
+	print(cpp_bash([[
+		# export
+	]]))
+
 end
 
 
