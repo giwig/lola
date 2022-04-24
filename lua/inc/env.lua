@@ -1,4 +1,14 @@
 
+
+function Split(s, delimiter)
+    result = {};
+    for match in (s..delimiter):gmatch("(.-)"..delimiter) do
+        table.insert(result, match);
+    end
+    return result;
+end
+
+
 function loop_envs()
 	for k, v in ipairs(env_global) do
 		print(" -> " .. v)
@@ -9,12 +19,4 @@ function loop_envs()
 	end
 end
 
-
-function Split(s, delimiter)
-    result = {};
-    for match in (s..delimiter):gmatch("(.-)"..delimiter) do
-        table.insert(result, match);
-    end
-    return result;
-end
 
