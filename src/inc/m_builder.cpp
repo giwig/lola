@@ -31,7 +31,7 @@ void LuaLinuxBuilder::OptionsPrint()
 	int opt = 0;
 	extern int opterr;
 
-	printf("\n\n(L)ua (L)inux Builder:\n\n");
+	printf("\n\n(L)inux (O)n (L)ua (A)utobuilder:\n\n");
 
 	opterr = 0;
 	while ((opt = getopt(options.size(), &options[0], "hv")) != -1)
