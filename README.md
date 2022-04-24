@@ -131,8 +131,6 @@ Usage: ./llbuilder [flags optional] [path to build scripts]
 #!/usr/bin/lua
 -- это просто заголовок для распознования синтаксиса другими редакторами
 
-
---package.path="lua/?.lua;lua/base/?.lua;lua/toolchain/?.lua"
 package.path="lua/?.lua"
 
 require "inc/env"
