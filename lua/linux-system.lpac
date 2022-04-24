@@ -1,12 +1,11 @@
 #!/usr/bin/lua
+-- это просто заголовок для распознования синтаксиса другими редакторами
 
--- TEST.LUA File
 
 --package.path="lua/?.lua;lua/base/?.lua;lua/toolchain/?.lua"
 package.path="lua/?.lua"
 
 require "inc/env"
---print("Hello from LUA\n\n")
 
 lpacs = {
 	--"base/m4",
