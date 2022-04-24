@@ -125,8 +125,7 @@ Usage: ./llbuilder [flags optional] [path to build scripts]
 ### вырезка из lfs.lpac:
 ```lua
 
-#!/usr/bin/lua
--- это просто заголовок для распознования синтаксиса другими редакторами
+#!/usr/bin/lua -- это просто заголовок для распознования синтаксиса другими редакторами
 
 package.path="lua/?.lua"
 
