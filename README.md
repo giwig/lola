@@ -100,7 +100,7 @@ end
 ### Как пользоваться <b>llbuilder</b>:
 Установка программы в систему пока не проверял, так как я использую <b>cmake</b>, как сборщик и ещё руки не доросли до установки через <b>make install</b>
 
-#### ./llbuilder -h или в корне ./run -h
+#### ./llbuilder -h или в корне ./run.sh -h
 
 ```console
 
@@ -118,7 +118,7 @@ Usage: ./llbuilder [flags optional] [path to build scripts]
 	-b [path to *.lpac]	File LPAC with configuration for system build
 ```
 
-#### ./llbuilder <i>или в корне</i> ./run -b lua/lfs.lpac запускает сборку системы.
+#### ./llbuilder <i>или в корне</i> ./run.sh -b lua/lfs.lpac запускает сборку системы.
 
 ***
 ### Описание файла LPAC:
