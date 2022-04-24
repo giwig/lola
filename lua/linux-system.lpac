@@ -1,3 +1,5 @@
+#!/usr/bin/lua
+
 -- TEST.LUA File
 
 --package.path="lua/?.lua;lua/base/?.lua;lua/toolchain/?.lua"
