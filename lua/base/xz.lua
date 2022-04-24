@@ -11,7 +11,7 @@ sha256sums={
 
 function pkg_prepare()
 
-	cpp_bash("sudo rm -r " .. tol_dir .. "/aaa")
+	print(cpp_bash("sudo rm -r " .. tol_dir .. "/aaa"))
 
 	print(cpp_bash([[
 		./configure --prefix=/usr 						\
